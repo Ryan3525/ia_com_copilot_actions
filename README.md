@@ -4,7 +4,7 @@
 
 ---
 
-## 📌 Contexto do Problema (Análise do Desafio)
+## Contexto do Problema (Análise do Desafio)
 
 Em equipes de desenvolvimento de software que crescem rapidamente, é comum surgir um dilema entre **velocidade de entrega** e **qualidade do código**.  
 No cenário proposto, a empresa desenvolve uma ferramenta de colaboração online e enfrenta dificuldades para:
@@ -18,7 +18,7 @@ A escrita manual de testes e o processo de revisão de código acabam se tornand
 
 ---
 
-## 🎯 Objetivo do Projeto
+##  Objetivo do Projeto
 
 Este projeto tem como objetivo demonstrar como o uso combinado de **Inteligência Artificial** e **automação de pipelines** pode:
 
@@ -31,7 +31,7 @@ Para isso, foram utilizadas as ferramentas **GitHub Copilot** e **GitHub Actions
 
 ---
 
-## 🤖 O Papel da IA no Ciclo de Desenvolvimento de Software
+## O Papel da IA no Ciclo de Desenvolvimento de Software
 
 A Inteligência Artificial tem um papel cada vez mais relevante no desenvolvimento moderno, atuando principalmente em:
 
@@ -48,7 +48,7 @@ Essa combinação permite que a equipe mantenha um equilíbrio saudável entre *
 
 ---
 
-## 🧪 Parte Prática — O que foi desenvolvido
+## Parte Prática — O que foi desenvolvido
 
 - Projeto simples em **Node.js**
 - Função principal de negócio:
@@ -56,6 +56,14 @@ Essa combinação permite que a equipe mantenha um equilíbrio saudável entre *
 - Testes unitários criados com **Jest**
 - Pipeline de **CI/CD** configurado com **GitHub Actions**
 - Execução automática dos testes a cada alteração no repositório
+
+### Caso Real que podemos olhar de exemplo
+
+Um caso real amplamente divulgado é o uso do GitHub Copilot por equipes internas da própria GitHub e por empresas como a Microsoft. Estudos apresentados pela GitHub indicam que desenvolvedores que utilizam o Copilot conseguem completar tarefas de programação até 55% mais rápido quando comparados a desenvolvedores que não utilizam a ferramenta.
+
+Diante disso, podemos notar o quanto a IA pode acelerar o processo de contrução e padronização, seja de correção de Bugs ou de demandas complexas.
+
+
 
 ### 📂 Estrutura do Projeto
 
@@ -67,3 +75,5 @@ tests/
 .github/
  └── workflows/
       └── nodejs.yml
+
+
